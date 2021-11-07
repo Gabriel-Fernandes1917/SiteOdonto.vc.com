@@ -1,5 +1,10 @@
+main{
+    display: flex;
+}
+
 .field{
-    width: 70%;
+    width: 80%;
+    margin-left: auto;
 }
 
 .divPerfil{
@@ -9,11 +14,48 @@
     position: fixed;
 }
 
-.divPerfil >div > img{
-    min-width: 100%;
-   
+
+.iconPerfil > img{
+    width: 100%;
+    height: 100%;
+}
+
+.descricao{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .descricao > h2{
     color: #3DC8DF;
+}
+
+.descricao > h3{
+    color: #3DC8DF;
+}
+
+.descricao > p{
+    color: white;
+    text-align: justify;
+    margin-bottom: 3%;
+}
+
+.redesSociais{
+    display: flex;
+    
+}
+
+.redesSociais > button{
+    margin-left: 3%;
+}
+
+/* field */
+
+.field{
+    margin-top: 3%;
+}
+
+.field > .post > input{
+    background-color: whitesmoke;
+    width: 50%;
 }
