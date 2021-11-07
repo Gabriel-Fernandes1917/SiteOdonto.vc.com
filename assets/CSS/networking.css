@@ -1,0 +1,19 @@
+.field{
+    width: 70%;
+}
+
+.divPerfil{
+    width: 20%;
+    background-color: #142348;
+    min-height: 100%;
+    position: fixed;
+}
+
+.divPerfil >div > img{
+    min-width: 100%;
+   
+}
+
+.descricao > h2{
+    color: #3DC8DF;
+}

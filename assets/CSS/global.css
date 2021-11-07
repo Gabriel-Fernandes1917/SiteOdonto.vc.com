@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+html{
+    --bgAzul:#0b273d;
+    --bgAmarelo: #FAB51F;
+}
+/*header*/
+header{
+    background-color: var(--bgAzul);
+    padding: 3%;
+    width: 100%;
+}
+
+header > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div > div >h1{
+    color: var(--bgAmarelo);
+}
+
+header > div > div >button{
+   border-radius: 15px;
+   padding: 5px;
+   cursor: pointer;
+}
+
+.optionsHeader{
+    width: 100%;
+   
+}
+
+.optionsHeader > nav > ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #C4C4C4;
+    list-style: none;
+    padding: 12px;
+}
+
+.optionsHeader > nav > ul > li{
+    padding: 3px;
+}
+
+.optionsHeader > nav > ul > li > a:hover{
+   background-color: var(--bgAzul);
+   color: white;
+   border-radius: 7px;
+   cursor: pointer;
+   padding: 7px;
+}
+
+/* end cabeçalho*/
+
+
+/* .slideshow{
+    
+} */
+
+
+p{
+    font-size: 20px;
+}
+
+.sobreNosBG{
+    background-color: var(--bgAzul);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: var(--bgAmarelo);
+}
+
+.sobreNos{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sobreNos > h2{
+    text-align: center;
+}
+
+.sobreNos > p{
+    text-align: justify;
+}
+
+.sobreNos > p{
+    text-align: justify;
+}
+
+.sobreNos > div{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sobreNos > div > div{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.imgFunder{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 60px;
+}
+
+
+.estruturaBG{
+    background-color: var(--bgAmarelo);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+.estrutura{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.estrutura>h2{
+    text-align: center;
+}
+
+.navEstrutura > ul{
+   display: flex;
+    
+}
+
+.navEstrutura > ul > li{
+    margin-top: 2%;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navEstrutura > ul > li > div{
+   max-width: 200px;
+   max-height: 200px;
+   border: solid;
+   border-color: black;
+}
+
+.descricaoEstrutura > p{
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-top: -5px;
+}
+
+.IMGestrutura > img{
+    width: 100%;
+    height: 100%;
+}
+
+/*trilha*/
+
+.TrilhaBG{
+    background-color: var(--bgAzul);
+}
+
+.Trilha{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    color: var(--bgAmarelo);
+}
+
+.Trilha>h2{
+    text-align: center;
+    color: var(--bgAmarelo);
+}
+
+.Trilha > div{
+    margin-top: 1%;
+    display: flex;
+   
+}
+
+
+
+.Trilha > div > div > img{
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+}
+
+/* coworking */
+
+.CoworkingBG{
+    background-color: white;
+}
+
+.Coworking{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    color: black;
+}
+
+.Coworking>h2{
+    text-align: center;
+}
+
+.Coworking > div{
+    margin-top: 1%;
+    display: flex;
+   
+}
+
+.Coworking > div > div > img{
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+}
+
+/* Networking */
+
+.NetworkingBG{
+    background-color: var(--bgAmarelo);
+}
+
+.Networking{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    color: black;
+}
+
+.Networking>h2{
+    text-align: center;
+}
+
+.Networking > div{
+    margin-top: 1%;
+    display: flex;
+   
+}
+
+.Networking > div > div > img{
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+}
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: var(--bgAzul);
+    padding: 3%;
+    color: white;
+}
