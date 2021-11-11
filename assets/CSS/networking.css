@@ -3,8 +3,11 @@ main{
 }
 
 .field{
-    width: 80%;
+    width: 50%;
     margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-color: whitesmoke;
 }
 
 .divPerfil{
@@ -55,7 +58,53 @@ main{
     margin-top: 3%;
 }
 
-.field > .post > input{
+/* .field > .post > input{
     background-color: whitesmoke;
-    width: 50%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-height: 40px;
+    
+} */
+
+
+.field > .post > textarea{
+    background-color: whitesmoke;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    border: none;
+    
+}
+
+.post{
+    display: flex;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: blue;
+}
+
+.post > button{
+    background-color:#1174f7;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+}
+
+.posts{
+    margin-top: 3%;
+}
+
+.personalInfo{
+    display: flex;
+}
+
+.UserIMGPost > img{
+    width: 50px;
+    height: 50px;
 }
